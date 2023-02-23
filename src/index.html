@@ -19,9 +19,7 @@
       defer
       src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
     ></script>
-    <script
-    src="../src/scripts/slidePosition.js"
-  ></script>
+    <script defer src="../src/scripts/slidePosition.js"></script>
 
     <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
@@ -54,31 +52,37 @@
                 width="300px"
                 src="assets/profile.jpg"
                 alt="Profile Image"
-                style="transform: rotate(270deg);"  
+                style="transform: rotate(270deg)"
               />
             </div>
           </div>
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text">
-                I'm a Web Developer that has recently switched careers from telecommunications and that is moving in March 2023 to Canada!
-                
-                I was a .NET Web developer in the last year of my bachelor's degree (2011), then had the oportunity
-                to work in the banking and finance segment as a systems analyst and after getting a scholar for a master's degree
-                in telecommunications flew to Barcelona for 2 years. After completing this master, my intention was to return to my country
-                and apply my new knowledge in the telecommunications segment and that's what I've done in the last 7 years. In the meantime,
-                I've been focusing on learning web development as I found it's my true passion. For the last 2 years (during pandemic), I started
-                to update my long slept coding skills and with now a vast experience in supporting systems in large environments, it has helped a lot in having 
-                a different and more solid point of view. 
-
-                I'm looking forward to keep honing my skills as I'm well aware I'll be becoming a valuable asset to any company
-                that gives me the change to retake my developer path. 
-      
+                I'm a Web Developer that has recently switched careers from
+                telecommunications and that is moving in March 2023 to Canada! I
+                was a .NET Web developer in the last year of my bachelor's
+                degree (2011), then had the oportunity to work in the banking
+                and finance segment as a systems analyst and after getting a
+                scholar for a master's degree in telecommunications flew to
+                Barcelona for 2 years. After completing this master, my
+                intention was to return to my country and apply my new knowledge
+                in the telecommunications segment and that's what I've done in
+                the last 7 years. In the meantime, I've been focusing on
+                learning web development as I found it's my true passion. For
+                the last 2 years (during pandemic), I started to update my long
+                slept coding skills and with now a vast experience in supporting
+                systems in large environments, it has helped a lot in having a
+                different and more solid point of view. I'm looking forward to
+                keep honing my skills as I'm well aware I'll be becoming a
+                valuable asset to any company that gives me the change to retake
+                my developer path.
               </p>
               <p class="about-wrapper__info-text">
-                I like to take photos to treasure the golden moments! Pictures are the best
-                way to remember any date and time! I also enjoy working out, having dinner or
-                a drink with friends and absolutely love a good laugh (not that I need a lot to do so!).
+                I like to take photos to treasure the golden moments! Pictures
+                are the best way to remember any date and time! I also enjoy
+                working out, having dinner or a drink with friends and
+                absolutely love a good laugh (not that I need a lot to do so!).
               </p>
               <span class="d-flex mt-3">
                 <a
@@ -108,13 +112,14 @@
                 <h3 class="project-wrapper__text-title">Pradso</h3>
                 <div>
                   <p class="mb-4">
-                    Properties Administration Solution (PRADSO) is a webpage that provides the necessary tools that a properties administrator
-                    needs to be able to manage and keep track of all operations. This solution provides powerful features such as tranking
-                    rent payments, registering expenses and deposits to landlords and more.
-
-                    This project was developed with MERN (MongoDB, Express, Reactjs, Nodejs) stack using Docker and hosted in Azure as an
-                    App Service. 
-
+                    Properties Administration Solution (PRADSO) is a webpage
+                    that provides the necessary tools that a properties
+                    administrator needs to be able to manage and keep track of
+                    all operations. This solution provides powerful features
+                    such as tranking rent payments, registering expenses and
+                    deposits to landlords and more. This project was developed
+                    with MERN (MongoDB, Express, Reactjs, Nodejs) stack using
+                    Docker and hosted in Azure as an App Service.
                   </p>
                 </div>
                 <div>
@@ -131,61 +136,85 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="https://pradso.azurewebsites.net/" target="_blank">
+                <a
+                  rel="noreferrer"
+                  href="https://pradso.azurewebsites.net/"
+                  target="_blank"
+                >
                   <div
                     data-tilt
                     data-tilt-max="4"
                     data-tilt-glare="true"
                     data-tilt-max-glare="0.5"
-                    class="thumbnail rounded js-tilt"
+                    class="thumbnail rounded"
                   >
-                  <div class="slideshow-container fade">
+                    <div class="slideshow-container">
+                      <!-- Full images with numbers and message Info -->
+                      <div class="Containers">
+                        <div class="MessageInfo">1 / 6</div>
+                        <img
+                          src="assets/Pradso-dasboard.png"
+                          style="width: 100%"
+                        />
+                        <div class="">Dashboard page</div>
+                      </div>
 
-                    <!-- Full images with numbers and message Info -->
-                    <div class="Containers">
-                      <div class="MessageInfo">1 / 6</div>
-                      <img src="assets/Pradso-dasboard.png" style="width:100%">
-                      <div class="Info">Dashboard page</div>
+                      <div class="Containers">
+                        <div class="MessageInfo">2 / 6</div>
+                        <img
+                          src="assets/Pradso-Residences.png"
+                          style="width: 100%"
+                        />
+                        <div class="">Residences page</div>
+                      </div>
+
+                      <div class="Containers">
+                        <div class="MessageInfo">3 / 6</div>
+                        <img
+                          src="assets/Pradso-Transactions.png"
+                          style="width: 100%"
+                        />
+                        <div class="">Transactions page</div>
+                      </div>
+                      <div class="Containers">
+                        <div class="MessageInfo">4 / 6</div>
+                        <img
+                          src="assets/Pradso-LandlordSummary.png"
+                          style="width: 100%"
+                        />
+                        <div class="">Landlord Summary</div>
+                      </div>
+                      <div class="Containers">
+                        <div class="MessageInfo">5 / 6</div>
+                        <img
+                          src="assets/Pradso-MontlhySummary.png"
+                          style="width: 100%"
+                        />
+                        <div class="">Monthly Summary</div>
+                      </div>
+                      <div class="Containers">
+                        <div class="MessageInfo">6 / 6</div>
+                        <img
+                          src="assets/Pradso-Accesses.png"
+                          style="width: 100%"
+                        />
+                        <div class="">Manage Access</div>
+                      </div>
+                      <!-- Back and forward buttons -->
+                      <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+                      <a class="forward" onclick="plusSlides(1)">&#10095;</a>
                     </div>
-                  
-                    <div class="Containers">
-                      <div class="MessageInfo">2 / 6</div>
-                      <img src="assets/Pradso-Residences.png" style="width:100%">
-                      <div class="Info">Residences page</div>
+                    <br />
+
+                    <!-- The circles/dots -->
+                    <div style="text-align: center">
+                      <span class="dots" onclick="currentSlide(1)"></span>
+                      <span class="dots" onclick="currentSlide(2)"></span>
+                      <span class="dots" onclick="currentSlide(3)"></span>
+                      <span class="dots" onclick="currentSlide(4)"></span>
+                      <span class="dots" onclick="currentSlide(5)"></span>
+                      <span class="dots" onclick="currentSlide(6)"></span>
                     </div>
-                  
-                    <div class="Containers">
-                      <div class="MessageInfo">3 / 6</div>
-                      <img src="assets/Pradso-Transactions.png" style="width:100%">
-                      <div class="Info">Transactions page</div>
-                    </div>
-                    <div class="Containers">
-                      <div class="MessageInfo">4 / 6</div>
-                      <img src="assets/Pradso-LandlordSummary.png" style="width:100%">
-                      <div class="Info">Landlord Summary</div>
-                    </div>
-                    <div class="Containers">
-                      <div class="MessageInfo">5 / 6</div>
-                      <img src="assets/Pradso-MontlhySummary.png" style="width:100%">
-                      <div class="Info">Monthly Summary</div>
-                    </div>
-                    <div class="Containers">
-                      <div class="MessageInfo">6 / 6</div>
-                      <img src="assets/Pradso-Accesses.png" style="width:100%">
-                      <div class="Info">Manage Access</div>
-                    </div>
-                    <!-- Back and forward buttons -->
-                    <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
-                    <a class="forward" onclick="plusSlides(1)">&#10095;</a>
-                  </div>
-                  <br>
-                  
-                  <!-- The circles/dots -->
-                  <div style="text-align:center">
-                    <span class="dots" onclick="currentSlide(1)"></span>
-                    <span class="dots" onclick="currentSlide(2)"></span>
-                    <span class="dots" onclick="currentSlide(3)"></span>
-                  </div> 
                   </div>
                 </a>
               </div>
@@ -197,8 +226,10 @@
                 <h3 class="project-wrapper__text-title">Armor-Clothing</h3>
                 <div>
                   <p class="mb-4">
-                    An Ecomerce app with the integration of stripe for payments, firebase for backend database and frontend 
-                    using react with redux-saga and TypeScript. Also available for download as a PWA. 
+                    An Ecomerce app with the integration of stripe for payments,
+                    firebase for backend database and frontend using react with
+                    redux-saga and TypeScript. Also available for download as a
+                    PWA.
                   </p>
                 </div>
                 <div>
@@ -225,7 +256,11 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="https://crownclothing-ldr.netlify.app/" target="_blank">
+                <a
+                  rel="noreferrer"
+                  href="https://crownclothing-ldr.netlify.app/"
+                  target="_blank"
+                >
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -246,11 +281,14 @@
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
-                <h3 class="project-wrapper__text-title">Gatsby personal blog</h3>
+                <h3 class="project-wrapper__text-title">
+                  Gatsby personal blog
+                </h3>
                 <div>
                   <p class="mb-4">
-                    This is a personal blog built with react, gatsby, graphql, styled components and bootstrap for styling, 
-                    using markdown files to automatically create the static pages. 
+                    This is a personal blog built with react, gatsby, graphql,
+                    styled components and bootstrap for styling, using markdown
+                    files to automatically create the static pages.
                   </p>
                 </div>
                 <div>
@@ -277,7 +315,11 @@
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="https://leninsanimalblog.netlify.app/" target="_blank">
+                <a
+                  rel="noreferrer"
+                  href="https://leninsanimalblog.netlify.app/"
+                  target="_blank"
+                >
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -301,13 +343,14 @@
                 <h3 class="project-wrapper__text-title">Smart-Brain</h3>
                 <div>
                   <p class="mb-4">
-                    In this project everything learned on the course 
-                    "The complete Web developer in 2022: Zero to mastery" was applied. Frontend with reactjs (using Hooks),
-                    backend with nodejs (using express.js) and a postgreSQL database. It consists of a web page where you can register
-                    a new user and after logging in you can inspect a picture URL and get in return all the faces
-                    in the image. After this, your record count is increased. 
-
-                    Everything was hosted in heroku. 
+                    In this project everything learned on the course "The
+                    complete Web developer in 2022: Zero to mastery" was
+                    applied. Frontend with reactjs (using Hooks), backend with
+                    nodejs (using express.js) and a postgreSQL database. It
+                    consists of a web page where you can register a new user and
+                    after logging in you can inspect a picture URL and get in
+                    return all the faces in the image. After this, your record
+                    count is increased. Everything was hosted in heroku.
                   </p>
                 </div>
                 <div>
@@ -332,19 +375,23 @@
                 </div>
                 <div className="pa2">
                   <a
-                  rel="noreferrer"
-                  target="_blank"
-                  class="cta-btn text-color-main cta-btn--hero"
-                  href="https://github.com/lenindelarosa/smartbrainapi"
-                >
-                  Source Code BackEnd
-                </a>
-              </div>
+                    rel="noreferrer"
+                    target="_blank"
+                    class="cta-btn text-color-main cta-btn--hero"
+                    href="https://github.com/lenindelarosa/smartbrainapi"
+                  >
+                    Source Code BackEnd
+                  </a>
+                </div>
               </div>
             </div>
             <div class="col-lg-8 col-sm-12">
               <div class="project-wrapper__image load-hidden">
-                <a rel="noreferrer" href="http://ldfacerecognitionbrain.herokuapp.com/" target="_blank">
+                <a
+                  rel="noreferrer"
+                  href="http://ldfacerecognitionbrain.herokuapp.com/"
+                  target="_blank"
+                >
                   <div
                     data-tilt
                     data-tilt-max="4"
@@ -362,7 +409,6 @@
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>
@@ -391,10 +437,18 @@
           <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
         <div class="social-links">
-          <a rel="noreferrer" href="https://www.linkedin.com/in/lenindelarosa/" target="_blank">
+          <a
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/lenindelarosa/"
+            target="_blank"
+          >
             <i class="fa fa-linkedin fa-inverse"></i>
           </a>
-          <a rel="noreferrer" href="https://github.com/lenindelarosa" target="_blank">
+          <a
+            rel="noreferrer"
+            href="https://github.com/lenindelarosa"
+            target="_blank"
+          >
             <i class="fa fa-github fa-inverse"></i>
           </a>
         </div>
