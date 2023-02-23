@@ -19,6 +19,9 @@
       defer
       src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
     ></script>
+    <script
+    src="../src/scripts/slidePosition.js"
+  ></script>
 
     <script async defer src="https://buttons.github.io/buttons.js"></script>
   </head>
@@ -58,15 +61,22 @@
           <div class="col-md-6 col-sm-12">
             <div class="about-wrapper__info load-hidden">
               <p class="about-wrapper__info-text">
-                I'm a telecommunications engineer that has always had passion about
-                coding and programing! Spent my early career's years programming and then
-                shifted to telecommunications. I have now come back to the beggining with
-                much knowledge about the IT and Telco world! Really excited to be able to 
-                create and collaborate in big projects with my problem solving experienced mindset!
+                I'm a Web Developer that has recently switched careers from telecommunications and that is moving in March 2023 to Canada!
+                
+                I was a .NET Web developer in the last year of my bachelor's degree (2011), then had the oportunity
+                to work in the banking and finance segment as a systems analyst and after getting a scholar for a master's degree
+                in telecommunications flew to Barcelona for 2 years. After completing this master, my intention was to return to my country
+                and apply my new knowledge in the telecommunications segment and that's what I've done in the last 7 years. In the meantime,
+                I've been focusing on learning web development as I found it's my true passion. For the last 2 years (during pandemic), I started
+                to update my long slept coding skills and with now a vast experience in supporting systems in large environments, it has helped a lot in having 
+                a different and more solid point of view. 
+
+                I'm looking forward to keep honing my skills as I'm well aware I'll be becoming a valuable asset to any company
+                that gives me the change to retake my developer path. 
       
               </p>
               <p class="about-wrapper__info-text">
-                I like to take photos to treasure our golden moments! Pictures are the best
+                I like to take photos to treasure the golden moments! Pictures are the best
                 way to remember any date and time! I also enjoy working out, having dinner or
                 a drink with friends and absolutely love a good laugh (not that I need a lot to do so!).
               </p>
@@ -75,7 +85,7 @@
                   rel="noreferrer"
                   target="_blank"
                   class="cta-btn cta-btn--resume"
-                  href="assets/Lenin Manuel_De La Rosa Ramirez_Resume.pdf"
+                  href="assets/LeninDeLaRosa_Resume.pdf"
                 >
                   View Resume
                 </a>
@@ -92,7 +102,95 @@
       <div class="container">
         <div class="project-wrapper">
           <h2 class="section-title dark-blue-text">Projects</h2>
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Pradso</h3>
+                <div>
+                  <p class="mb-4">
+                    Properties Administration Solution (PRADSO) is a webpage that provides the necessary tools that a properties administrator
+                    needs to be able to manage and keep track of all operations. This solution provides powerful features such as tranking
+                    rent payments, registering expenses and deposits to landlords and more.
 
+                    This project was developed with MERN (MongoDB, Express, Reactjs, Nodejs) stack using Docker and hosted in Azure as an
+                    App Service. 
+
+                  </p>
+                </div>
+                <div>
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    class="cta-btn cta-btn--hero"
+                    href="https://pradso.azurewebsites.net/"
+                  >
+                    Access live
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" href="https://pradso.azurewebsites.net/" target="_blank">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                  <div class="slideshow-container fade">
+
+                    <!-- Full images with numbers and message Info -->
+                    <div class="Containers">
+                      <div class="MessageInfo">1 / 6</div>
+                      <img src="assets/Pradso-dasboard.png" style="width:100%">
+                      <div class="Info">Dashboard page</div>
+                    </div>
+                  
+                    <div class="Containers">
+                      <div class="MessageInfo">2 / 6</div>
+                      <img src="assets/Pradso-Residences.png" style="width:100%">
+                      <div class="Info">Residences page</div>
+                    </div>
+                  
+                    <div class="Containers">
+                      <div class="MessageInfo">3 / 6</div>
+                      <img src="assets/Pradso-Transactions.png" style="width:100%">
+                      <div class="Info">Transactions page</div>
+                    </div>
+                    <div class="Containers">
+                      <div class="MessageInfo">4 / 6</div>
+                      <img src="assets/Pradso-LandlordSummary.png" style="width:100%">
+                      <div class="Info">Landlord Summary</div>
+                    </div>
+                    <div class="Containers">
+                      <div class="MessageInfo">5 / 6</div>
+                      <img src="assets/Pradso-MontlhySummary.png" style="width:100%">
+                      <div class="Info">Monthly Summary</div>
+                    </div>
+                    <div class="Containers">
+                      <div class="MessageInfo">6 / 6</div>
+                      <img src="assets/Pradso-Accesses.png" style="width:100%">
+                      <div class="Info">Manage Access</div>
+                    </div>
+                    <!-- Back and forward buttons -->
+                    <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                  <br>
+                  
+                  <!-- The circles/dots -->
+                  <div style="text-align:center">
+                    <span class="dots" onclick="currentSlide(1)"></span>
+                    <span class="dots" onclick="currentSlide(2)"></span>
+                    <span class="dots" onclick="currentSlide(3)"></span>
+                  </div> 
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
           <div class="row">
             <div class="col-lg-4 col-sm-12">
               <div class="project-wrapper__text load-hidden">
